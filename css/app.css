@@ -1,0 +1,88 @@
+body {
+        overflow: hidden;
+        position: fixed;
+}
+
+.app {
+        position: fixed;
+        left: 0;
+        right: 0;
+
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+
+        overflow: hidden;
+}
+
+.app .header {
+        display: block;
+        height: 8vh;
+
+        background-color: grey;
+}
+
+.app .header .banner-toggler {
+        position: absolute;
+        right: 0;
+        display: 'inline-block';
+        width: 5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 1vh;
+        margin-right: 1vh;
+        text-align: center;
+}
+
+.app .header .dialog-toggler {
+        position: absolute;
+        right: 6rem;
+        display: 'inline-block';
+        width: 5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-top: 1vh;
+        margin-right: 1vh;
+        text-align: center;
+}
+
+.app .sorting-visualizer {
+        display: block;
+        height: 88vh;
+
+        background-color: black;
+}
+
+.app .footer {
+        display: block;
+        height: 4vh;
+
+        background-color: grey;
+}
+
+.app .banner {
+        position: fixed;
+        top: 8vh;
+        z-index: 1;
+        
+        display: block;
+        height: 5vh;
+        width: 100%;
+
+        background-color: green;    
+}
+
+.app .dialog {
+        position: fixed;
+        top: 30vh;
+        left: 10vw;
+        z-index: 1;
+
+        display: block;
+        height: 40vh;
+        width: 80vw;
+
+        background-color: blue;
+}
+

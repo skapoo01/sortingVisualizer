@@ -1,0 +1,24 @@
+@import './sanitize.css';
+@import './app.css';
+
+
+
+.menu-bar {
+        display: block;
+}
+
+.menu-item {
+        display: inline-block;
+}
+
+#visualizer {
+        display: flex;
+        flex-direction: row;
+}
+.num-block {
+        width: 30px;
+        height: 30px;
+        background-color: blue;
+        content: attr(data-magnitude);
+        margin: 10px;
+}
